@@ -32,6 +32,8 @@ async def on_ready():
 
 bot.load_extension("Commands.ping")
 bot.load_extension("Commands.verify")
+bot.load_extension("Commands.join_lad")
+bot.load_extension("Commands.join_servo")
 bot.load_extension("Events.welcome")
 
 try:
