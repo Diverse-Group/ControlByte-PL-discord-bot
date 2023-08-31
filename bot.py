@@ -35,6 +35,7 @@ bot.load_extension("Commands.verify")
 bot.load_extension("Commands.join_lad")
 bot.load_extension("Commands.join_servo")
 bot.load_extension("Events.welcome")
+bot.load_extension("Commands.get_mini_lad")
 
 try:
     bot.start()
